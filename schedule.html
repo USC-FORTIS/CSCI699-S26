@@ -17,29 +17,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
 
     <!-- Scripts -->
     <script src="https://unpkg.com/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
-    <style>
-      body {
-        font-family: "Roboto", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Helvetica Neue", "Arial", "Noto Sans",
-          "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-      }
-      h1, h2, h3 {
-        text-align: center;
-      }
-      .university-color {
-        color: #990000;
-      }
-
-      /* Responsive fix (your template missed a closing brace before) */
-      @media only screen and (max-width: 768px) {
-        .table-responsive {
-          font-size: 0.95rem;
-        }
-      }
-    </style>
   </head>
 
   <body>
@@ -88,7 +70,7 @@
             <tr>
               <th style="width: 14%;">Date</th>
               <th style="width: 38%;">Topic / In-class plan</th>
-              <th style="width: 32%;">Readings (placeholders)</th>
+              <th style="width: 32%;">Presentations / Readings</th>
               <th style="width: 16%;">Logistics</th>
             </tr>
           </thead>
@@ -117,28 +99,12 @@
 
     <tr>
       <td><strong>Week 2</strong><br />Wed, Jan 21</td>
+      <td>Student paper presentations.</td>
       <td>
-        Backdoor and jailbreak attacks against foundation models (LLMs and VLMs).
-      </td>
-      <td>
-        1. <a href="https://aclanthology.org/2024.findings-naacl.94/" target="_blank">
-           Composite Backdoor Attacks Against Large Language Models</a>
-           (NAACL 2024 Findings)<br />
-
-        2. <a href="https://aclanthology.org/2024.emnlp-main.642.pdf" target="_blank">
-           Universal Vulnerabilities in Large Language Models: Backdoor Attacks for In-context Learning</a>
-           (EMNLP 2024)<br />
-
-        3. <a href="https://aclanthology.org/2024.findings-acl.443/" target="_blank">
-           A Comprehensive Study of Jailbreak Attack versus Defense for Large Language Models</a>
-           (ACL 2024 Findings)<br />
-
-        4. <a href="https://ojs.aaai.org/index.php/AAAI/article/view/34983" target="_blank">
-           MMJ-Bench: A Comprehensive Study on Jailbreak Attacks and Defenses for Vision Language Models</a>
-           (AAAI 2025)
-
-        5. <a href="https://arxiv.org/abs/2512.04668" target="_blank">
-           Topology Matters: Measuring Memory Leakage in Multi-Agent LLMs</a>
+        1. <strong>Chufan Shi</strong>: <a href="https://aclanthology.org/2024.findings-acl.443/" target="_blank">A Comprehensive Study of Jailbreak Attack versus Defense</a><br />
+        2. <strong>Feiyu Zhu</strong>: <a href="https://aclanthology.org/2024.emnlp-main.642.pdf" target="_blank">Universal Vulnerabilities in Large Language Models: Backdoor Attacks for In-context Learning</a><br />
+        3. <strong>Ruiteng Li</strong>: <a href="https://ojs.aaai.org/index.php/AAAI/article/view/34983" target="_blank">MMJ-Bench: A Comprehensive Study on Jailbreak Attacks and Defenses for Vision Language Models</a><br />
+        4. <strong>Bingxin Xu</strong>: <a href="https://aclanthology.org/2024.findings-naacl.94/" target="_blank">Composite Backdoor Attacks Against Large Language Models</a>
       </td>
       <td></td>
     </tr>
@@ -146,12 +112,13 @@
 
   <tr>
     <td><strong>Week 3</strong><br />Wed, Jan 28</td>
+    <td>Student paper presentations.</td>
     <td>
-      Attacker capabilities and system surfaces: prompts, tools, retrieval, agents, training pipeline.
-    </td>
-    <td>
-      Paper 1 (TBD): <a href="#" target="_blank">Title TBD</a><br />
-      Paper 2 (TBD): <a href="#" target="_blank">Title TBD</a>
+      1. <strong>Tiannuo Yang</strong>: <a href="https://aclanthology.org/2025.acl-long.1058.pdf" target="_blank">Prompt-Guided Internal States for Hallucination Detection (PRISM)</a><br />
+      2. <strong>Ryuichi Lun</strong>: <a href="https://aclanthology.org/2025.findings-acl.349/" target="_blank">Red-teaming LLM Multi-Agent Systems via Communication Attacks</a><br />
+      3. <strong>Valliammai Valliappan</strong>: <a href="https://arxiv.org/abs/2509.20324" target="_blank">RAG Security and Privacy: Formalizing the Threat Model and Attack Surface</a><br />
+      4. <strong>Jayavibhav Niranjan Kogundi</strong>: <a href="https://neurips.cc/virtual/2025/poster/116028" target="_blank">DRIFT: Dynamic Rule-Based Defense with Injection Isolation for Securing LLM Agents</a><br />
+      5. <strong>Tsung-Jui Wu</strong>: <a href="https://aclanthology.org/2025.findings-emnlp.1023/" target="_blank">One Shot Dominance: Knowledge Poisoning Attack on Retrieval-Augmented Generation</a>
     </td>
     <td></td>
   </tr>
@@ -162,50 +129,62 @@
 
   <tr>
     <td><strong>Week 4</strong><br />Wed, Feb 4</td>
-    <td>Prompt injection and tool-use attacks; agent security basics.</td>
+    <td>Student paper presentations.</td>
     <td>
-      Paper 1 (TBD): <a href="#" target="_blank">Title TBD</a><br />
-      Paper 2 (TBD): <a href="#" target="_blank">Title TBD</a>
+      1. <strong>Tiannuo Yang</strong>: <a href="https://neurips.cc/virtual/2025/130524" target="_blank">Mitigating Hallucination in Multimodal LLMs with Layer Contrast Decoding</a><br />
+      2. <strong>Ryuichi Lun</strong>: <a href="https://arxiv.org/abs/2403.04783" target="_blank">AutoDefense: Multi-Agent LLM Defense against Jailbreak Attacks</a><br />
+      3. <strong>Jiate Li</strong>: <a href="https://arxiv.org/abs/2502.17832" target="_blank">MM-PoisonRAG: Disrupting Multimodal RAG with Local and Global Poisoning Attacks</a><br />
+      4. <strong>Valliammai Valliappan</strong>: <a href="https://arxiv.org/abs/2505.22778" target="_blank">Machine Learning Models Have a Supply Chain Problem</a>
     </td>
     <td>One-page project proposal due with all the team members name on (by 23:59pm, PST)</td>
   </tr>
 
   <tr>
     <td><strong>Week 5</strong><br />Wed, Feb 11</td>
-    <td>Jailbreaks and refusal bypass; attack evaluation and transfer.</td>
+    <td>Student paper presentations.</td>
     <td>
-      Paper 1 (TBD): <a href="#" target="_blank">Title TBD</a><br />
-      Paper 2 (TBD): <a href="#" target="_blank">Title TBD</a>
+      1. <strong>Jiate Li</strong>: <a href="https://www.usenix.org/conference/usenixsecurity24/presentation/liu-hongbin" target="_blank">Mudjacking: Patching Backdoor Vulnerabilities in Foundation Models</a><br />
+      2. <strong>Faith Baca</strong>: <a href="https://dl.acm.org/doi/10.1145/3708821.3733888" target="_blank">SoK: The Privacy Paradox of Large Language Models</a><br />
+      3. <strong>Shreyas Kolte</strong>: <a href="https://iccv.thecvf.com/virtual/2025/poster/737" target="_blank">IDEATOR: Jailbreaking and Benchmarking Large Vision-Language Models</a>
     </td>
     <td></td>
   </tr>
 
   <tr>
     <td><strong>Week 6</strong><br />Wed, Feb 18</td>
-    <td>Data extraction and privacy leakage; memorization and training data exposure.</td>
+    <td>Student paper presentations.</td>
     <td>
-      Paper 1 (TBD): <a href="#" target="_blank">Title TBD</a><br />
-      Paper 2 (TBD): <a href="#" target="_blank">Title TBD</a>
+      1. <strong>Tsung-Jui Wu</strong>: <a href="https://aclanthology.org/2025.findings-naacl.172.pdf" target="_blank">A Controllable Adversarial Attack against Diffusion Models</a><br />
+      2. <strong>Mitesh Adake</strong>: <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/63092d79154adebd7305dfd498cbff70-Abstract-Datasets_and_Benchmarks_Track.html" target="_blank">JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models</a><br />
+      3. <strong>Aryan Bhusari</strong>: <a href="https://arxiv.org/abs/2411.01713" target="_blank">Rethinking Weight Decay for Robust Fine-Tuning of Foundation Models</a><br />
+      4. <strong>Shicheng Wen</strong>: <a href="https://aclanthology.org/2024.naacl-long.180/" target="_blank">Instructional Fingerprinting of Large Language Models</a><br />
+      5. <strong>Ashutosh Chaubey</strong>: <a href="https://aclanthology.org/2024.findings-emnlp.990/" target="_blank">Improving Adversarial Robustness in Vision-Language Models</a>
     </td>
     <td></td>
   </tr>
 
   <tr>
     <td><strong>Week 7</strong><br />Wed, Feb 25</td>
-    <td>Training-time attacks: poisoning, backdoors, and model supply-chain issues.</td>
+    <td>Student paper presentations.</td>
     <td>
-      Paper 1 (TBD): <a href="#" target="_blank">Title TBD</a><br />
-      Paper 2 (TBD): <a href="#" target="_blank">Title TBD</a>
+      1. <strong>Faith Baca</strong>: <a href="https://arxiv.org/abs/2502.17424" target="_blank">Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs</a><br />
+      2. <strong>Ruth-Ann Armstrong</strong>: <a href="https://arxiv.org/abs/2506.00359" target="_blank">Keeping an Eye on LLM Unlearning: The Hidden Risk and Remedy</a><br />
+      3. <strong>Xiaoqin Feng</strong>: <a href="https://aclanthology.org/2025.emnlp-main.1771/" target="_blank">Breaking Agents: Compromising Autonomous LLM Agents</a><br />
+      4. <strong>Li Li</strong>: <a href="https://aclanthology.org/2025.emnlp-main.1239.pdf" target="_blank">Hallucination Detection in LLMs Using Spectral Features</a><br />
+      5. <strong>Li Li</strong>: <a href="https://arxiv.org/pdf/2510.20223" target="_blank">Beyond Text: Multimodal Jailbreaking of Vision-Language Models</a>
     </td>
     <td></td>
   </tr>
 
   <tr>
     <td><strong>Week 8</strong><br />Wed, Mar 4</td>
-    <td>RAG attacks: retrieval manipulation, content injection, and ranking effects.</td>
+    <td>Student paper presentations.</td>
     <td>
-      Paper 1 (TBD): <a href="#" target="_blank">Title TBD</a><br />
-      Paper 2 (TBD): <a href="#" target="_blank">Title TBD</a>
+      1. <strong>Raja Kumar</strong>: <a href="https://neurips.cc/virtual/2025/125217" target="_blank">Chain-of-Intention Reasoning Elicits Defense in Multimodal LLMs</a><br />
+      2. <strong>Anagha Shyama Prakash</strong>: <a href="https://aclanthology.org/2024.findings-acl.443/" target="_blank">A Comprehensive Study of Jailbreak Attack versus Defense</a><br />
+      3. <strong>Xiaoqin Feng</strong>: <a href="https://openreview.net/forum?id=7DXaCYUvDN" target="_blank">Weak-to-Strong Jailbreaking on Large Language Models</a><br />
+      4. <strong>Jae Won Choi</strong>: <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html" target="_blank">AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents</a><br />
+      5. <strong>Junhan Wu</strong>: <a href="https://aclanthology.org/2025.emnlp-main.1128/" target="_blank">Diffusion-Driven Prompt Manipulation for LLM Jailbreak</a>
     </td>
     <td></td>
   </tr>
@@ -216,10 +195,13 @@
 
   <tr>
     <td><strong>Week 9</strong><br />Wed, Mar 11</td>
-    <td>Defense patterns: input filtering, sandboxing, tool policies, and guardrails.</td>
+    <td>Student paper presentations.</td>
     <td>
-      Paper 1 (TBD): <a href="#" target="_blank">Title TBD</a><br />
-      Paper 2 (TBD): <a href="#" target="_blank">Title TBD</a>
+      1. <strong>Mitesh Adake</strong>: <a href="https://arxiv.org/abs/2502.01633" target="_blank">Adversarial Reasoning at Jailbreaking Time</a><br />
+      2. <strong>Aryan Bhusari</strong>: <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_Anyattack_Towards_Large-scale_Self-supervised_Adversarial_Attacks_on_Vision-language_Models_CVPR_2025_paper.pdf" target="_blank">AnyAttack: Towards Large-scale Self-supervised Adversarial Attacks on Vision-Language Models</a><br />
+      3. <strong>Alexander Romanus</strong>: <a href="https://arxiv.org/pdf/2512.12069v2" target="_blank">Rethinking Jailbreak Detection of Large Vision Language Models with Representational Contrastive Scoring</a><br />
+      4. <strong>Shicheng Wen</strong>: <a href="https://arxiv.org/abs/2505.18979" target="_blank">GhostPrompt: Jailbreaking Text-to-image Generative Models</a><br />
+      5. <strong>Ramya Krishnan</strong>: <a href="https://arxiv.org/abs/2406.12091" target="_blank">Is Poisoning a Real Threat to LLM Alignment?</a>
     </td>
     <td></td>
   </tr>
@@ -233,20 +215,26 @@
 
   <tr>
     <td><strong>Week 11</strong><br />Wed, Mar 25</td>
+    <td>Student paper presentations.</td>
     <td>
-      <strong>Mid Project Presentations</strong><br />
-      Short midterm updates (e.g., 8–10 minutes per team) + Q&amp;A.
+      1. <strong>Ojas Nimase</strong>: Searching for Privacy Risks in LLM Agents via Simulation<br />
+      2. <strong>Anagha Shyama Prakash</strong>: <a href="https://arxiv.org/pdf/2601.07185" target="_blank">Defenses Against Prompt Attacks Learn Surface Heuristics</a><br />
+      3. <strong>Ojas Nimase</strong>: Paper number/name TBD<br />
+      4. <strong>Alexander Romanus</strong>: <a href="https://arxiv.org/pdf/2502.13095" target="_blank">Understanding and Rectifying Safety Perception Distortion in VLMs</a><br />
+      5. <strong>Xu Wang</strong>: <a href="https://neurips.cc/virtual/2024/poster/93578" target="_blank">Towards Next-Level Robustness in Fine-tuning Zero-Shot Models</a>
     </td>
-    <td>None</td>
     <td>Mid project slides due (TBD)</td>
   </tr>
 
   <tr>
     <td><strong>Week 12</strong><br />Wed, Apr 1</td>
-    <td>Detection and monitoring in production: telemetry, anomaly signals, and incident response.</td>
+    <td>Student paper presentations.</td>
     <td>
-      Paper 1 (TBD): <a href="#" target="_blank">Title TBD</a><br />
-      Paper 2 (TBD): <a href="#" target="_blank">Title TBD</a>
+      1. <strong>Ashutosh Chaubey</strong>: Paper number/name TBD<br />
+      2. <strong>Xinyuan Li</strong>: Paper number/name TBD<br />
+      3. <strong>Tianyi Zhang</strong>: <a href="https://aclanthology.org/2024.acl-long.140/" target="_blank">RLHFPoison: Reward Poisoning Attack for Reinforcement Learning with Human Feedback</a><br />
+      4. <strong>Jae Won Choi</strong>: <a href="https://arxiv.org/pdf/2512.04668" target="_blank">Topology Matters: Measuring Memory Leakage in Multi-Agent LLMs</a><br />
+      5. <strong>Junhan Wu</strong>: <a href="https://arxiv.org/abs/2511.10714" target="_blank">BadThink: Triggered Overthinking Attacks on Chain-of-Thought Reasoning in Large Language Models</a>
     </td>
     <td></td>
   </tr>
@@ -257,30 +245,39 @@
 
   <tr>
     <td><strong>Week 13</strong><br />Wed, Apr 8</td>
-    <td>Paper discussion (placeholder).</td>
+    <td>Student paper presentations.</td>
     <td>
-      Paper 1 (TBD): <a href="#" target="_blank">Title TBD</a><br />
-      Paper 2 (TBD): <a href="#" target="_blank">Title TBD</a>
+      1. <strong>Faezeh Dehghan</strong>: <a href="https://openreview.net/pdf?id=6Mxhg9PtDE" target="_blank">Safety Alignment Should Be Made More Than Just Superficial</a><br />
+      2. <strong>Ruth-Ann Armstrong</strong>: <a href="https://aclanthology.org/2025.acl-long.724.pdf" target="_blank">HiddenDetect: Detecting Jailbreak Attacks against Large Vision-Language Models</a><br />
+      3. <strong>Tianyi Zhang</strong>: <a href="https://openreview.net/forum?id=SOMDiaGoil" target="_blank">On the Vulnerability of Applying Retrieval-Augmented Generation</a><br />
+      4. <strong>Ramya Krishnan</strong>: <a href="https://neurips.cc/virtual/2025/poster/118152" target="_blank">Memory Injection Attacks on LLM Agents via Query-Only</a><br />
+      5. <strong>Jayavibhav Niranjan Kogundi</strong>: <a href="https://aclanthology.org/2025.emnlp-main.220.pdf" target="_blank">Reasoning Model Unlearning: Forgetting Traces, Not Just Answers</a>
     </td>
     <td></td>
   </tr>
 
   <tr>
     <td><strong>Week 14</strong><br />Wed, Apr 15</td>
-    <td>Paper discussion (placeholder).</td>
+    <td>Student paper presentations.</td>
     <td>
-      Paper 1 (TBD): <a href="#" target="_blank">Title TBD</a><br />
-      Paper 2 (TBD): <a href="#" target="_blank">Title TBD</a>
+      1. <strong>Shreyas Kolte</strong>: Training LLMs for Honesty via Confessions<br />
+      2. <strong>Yi Nian</strong>: <a href="https://aclanthology.org/2024.findings-acl.549/" target="_blank">On the Vulnerability of Safety Alignment in Open-Access LLMs</a><br />
+      3. <strong>Xu Wang</strong>: <a href="https://arxiv.org/abs/2501.18841" target="_blank">Trading Inference-Time Compute for Adversarial Robustness</a><br />
+      4. <strong>Jingzhen Wang</strong>: Paper number/name TBD<br />
+      5. <strong>Jingzhen Wang</strong>: Paper number/name TBD
     </td>
     <td></td>
   </tr>
 
   <tr>
     <td><strong>Week 15</strong><br />Wed, Apr 22</td>
-    <td>Paper discussion (placeholder).</td>
+    <td>Student paper presentations.</td>
     <td>
-      Paper 1 (TBD): <a href="#" target="_blank">Title TBD</a><br />
-      Paper 2 (TBD): <a href="#" target="_blank">Title TBD</a>
+      1. <strong>Qi Pan</strong>: <a href="https://neurips.cc/virtual/2025/poster/119923" target="_blank">NeuroGenPoisoning: Neuron-Guided Attacks on Retrieval-Augmented Generation</a><br />
+      2. <strong>Yi Nian</strong>: <a href="https://openreview.net/forum?id=8Pxdzsqvx9" target="_blank">JailDAM: Jailbreak Detection with Adaptive Memory for Vision-Language Model</a><br />
+      3. <strong>Faezeh Dehghan</strong>: Paper number/name TBD<br />
+      4. <strong>Xinyuan Li</strong>: Paper number/name TBD<br />
+      5. <strong>Tim Aris</strong>: <a href="https://arxiv.org/abs/2506.19248" target="_blank">Inference-Time Reward Hacking in Large Language Models</a>
     </td>
     <td></td>
   </tr>
@@ -307,11 +304,9 @@
       </div>
     </div>
 
-    <footer
-      style="background-color: #f9f9f9; padding: 20px; text-align: center; border-top: 2px solid #e5e5e5; margin-top: 50px;"
-    >
-      <p style="font-family: 'Oswald', sans-serif; font-size: 15px; color: #555;">© Copyright 2026 University of Southern California.</p>
-      <p style="font-family: 'Oswald', sans-serif; font-size: 15px; color: #555;">
+    <footer class="site-footer">
+      <p>© Copyright 2026 University of Southern California.</p>
+      <p>
         Written by Yue Zhao and ChatGPT. <a href="https://github.com/USC-ASAP/CICS566-S24" target="_blank" style="color: #888; text-decoration: none;">Reuse our code</a>.
       </p>
     </footer>
